@@ -2,8 +2,8 @@
 Conversor de formato PGM a ASCII y viceversa.
 
 ## Forma de uso
-1 Hacemos make.
-2 Ejecutamos desde la carpeta bin el ejecutable que deseemos:
+1. Hacemos make.
+2. Ejecutamos desde la carpeta bin el ejecutable que deseemos:
   - Este ejecutable sirve para crear un degradado y un recorte de una determinada imagen:
   ```sh
     ./testimagen  <sin parametros> 
@@ -14,6 +14,5 @@ Conversor de formato PGM a ASCII y viceversa.
  ``` 
 - Realiza la concatenación de dos imagenes:
   ```sh
-  ./suma ruta_imagen1.pgm> ruta_imagen2.pgm
+  ./suma ruta_imagen1.pgm ruta_imagen2.pgm
  ```
-  
